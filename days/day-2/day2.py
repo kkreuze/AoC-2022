@@ -20,6 +20,22 @@ print('You have:', totalpoints,'points')
 
 
 #Solution 2
+def ultratopsecretstrategyguide (input):
+    if input == 'A X': return(3 + 0) 
+    if input == 'A Y': return(1 + 3)
+    if input == 'A Z': return(2 + 6)
+    if input == 'B X': return(1 + 0)
+    if input == 'B Y': return(2 + 3) 
+    if input == 'B Z': return(3 + 6)
+    if input == 'C X': return(2 + 0)
+    if input == 'C Y': return(3 + 3) 
+    if input == 'C Z': return(1 + 6)
+
+totalpoints2 = 0
+for line in lines:
+    totalpoints2 += ultratopsecretstrategyguide(line)
+
+print('You have:', totalpoints2,'points')
 
 
 #show the speed in which the code runs
