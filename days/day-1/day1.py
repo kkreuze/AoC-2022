@@ -1,4 +1,4 @@
-with open("D:\AA Projects\AoC-2022\day-1\input.txt") as file:
+with open("D:\AA Projects\AoC-2022\days\day-1\input.txt") as file:
     total_calories = sorted(sum(int(food) for food in calories.split("\n")) for calories in (elf for elf in file.read().strip().split("\n\n")))
     print('the solution to the first problem is:',total_calories[-1])
     print('the solution to the second problem is:',sum(total_calories[-3:]))
