@@ -10,3 +10,5 @@ for i in res:
     else:
         print("too big")
 print(total)
+
+#kost me teveel moeite.
